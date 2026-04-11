@@ -1,6 +1,7 @@
 #include <stdio.h>
-
+void function_buoi1();
 void main()
 {
-	printf("hello World\n");
+	function_buoi1();
+
 }
