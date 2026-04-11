@@ -1,5 +1,5 @@
 #include <stdio.h>
-void function_buoi1();
+#include "thuvien.h"
 void main()
 {
 	function_buoi1();
