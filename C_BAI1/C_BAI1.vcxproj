@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="buoi 2.c" />
     <ClCompile Include="buoi1.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>

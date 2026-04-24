@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "thuvien.h"
+void tinh_toan();
 void main()
 {
-	function_buoi1();
+	tinh_toan();
 }
