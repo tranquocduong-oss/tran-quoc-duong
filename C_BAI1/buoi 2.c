@@ -136,4 +136,5 @@ void hex_dec() {
 	printf("xor: a^b: %d | 0x%x\n", a ^ b, a ^ b);
 	printf("not: ~a: %d | 0x%x\n", ~a, ~a);
 	printf("or: a|b: %d | 0x%x", a | b, a | b);
+
 }
