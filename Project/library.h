@@ -1,0 +1,17 @@
+#pragma once
+void my_funtion();
+void giai_pt_bac_2();
+void bai_1();
+void bai_2();
+void bai_3();
+void bai_4();
+void buoi3_bai_1();
+void buoi3_bai_2();
+void buoi3_bai_3();
+void buoi3_bai_4();
+void buoi3_bai_5();
+void buoi3_bai_6();
+void buoi3_bai_7();
+void buoi4_bai_1();
+void buoi4_bai_2();
+void buoi4_bai_3();
