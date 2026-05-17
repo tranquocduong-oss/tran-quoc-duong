@@ -30,6 +30,24 @@
     <ClCompile Include="buoi4.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="buoi5.1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buoi5.2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="btvnBuoi2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="btvnBuoi3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="btvnBuoi4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="library.h">

@@ -127,10 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="btvnBuoi2.c" />
+    <ClCompile Include="btvnBuoi3.c" />
+    <ClCompile Include="btvnBuoi4.c" />
     <ClCompile Include="BUOI1.C" />
     <ClCompile Include="buoi2.c" />
     <ClCompile Include="buoi3.c" />
     <ClCompile Include="buoi4.c" />
+    <ClCompile Include="buoi5.1.c" />
+    <ClCompile Include="buoi5.2.c" />
+    <ClCompile Include="lib.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
