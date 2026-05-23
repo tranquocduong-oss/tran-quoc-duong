@@ -48,6 +48,9 @@
     <ClCompile Include="btvnBuoi4.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="btvnBuoi5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="library.h">

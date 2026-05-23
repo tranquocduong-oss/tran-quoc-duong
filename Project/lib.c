@@ -11,3 +11,4 @@ int cong_so_nguyen(int so_nguyen_1, int so_nguyen_2) {
 	kQ = so_nguyen_1 + so_nguyen_2;
 	return kQ;
 }
+

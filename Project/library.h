@@ -93,6 +93,16 @@ void bai4_1buoi4();
 void bai4_2buoi4();
 void bai4_3buoi4();
 void bai4_4buoi4();
+//BTVN buoi5
+int my_strlen(char* s);
+void  btvn2_buoi5();
+char* find_Char(char* s);
+void btvn3_buoi5();
+void noi_chuoi(char* s, char* t);
+void btvn4_buoi5();
+
+void btvn5_buoi5();
+int kiem_tra_chuoi_con(char* A, char* B);
 
 
 

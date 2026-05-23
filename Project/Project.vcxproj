@@ -130,6 +130,7 @@
     <ClCompile Include="btvnBuoi2.c" />
     <ClCompile Include="btvnBuoi3.c" />
     <ClCompile Include="btvnBuoi4.c" />
+    <ClCompile Include="btvnBuoi5.c" />
     <ClCompile Include="BUOI1.C" />
     <ClCompile Include="buoi2.c" />
     <ClCompile Include="buoi3.c" />

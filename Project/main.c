@@ -2,26 +2,11 @@
 #include "library.h"
 
 void main() {
-	//printf("Hello World \n");
-	//my_funtion();
-	//giai_pt_bac_2();
-	//bai_1();
-	//bai_2();
-	//bai_3();
-	//buoi3_bai_2();
-	//buoi3_bai_2();
-	//buoi3_bai_3();
-	//buoi3_bai_4();
-	//buoi3_bai_5();
-	//buoi3_bai_6();
-	//buoi3_bai_7();
-	//buoi4_bai_1();
-	//buoi4_bai_2();
-	//buoi4_bai_3();
-	//vidu1();
-	//bai1_buoi5();
-	//bai2_buoi5();
-	//bai3_buoi5();
-	//bai1_buoi5_2();
-	 bai4_4buoi4();
+	//char* Str = "Quoc Duong";
+	//printf("so luong ky tu co trong ham vua nhap la: %d", my_strlen(Str));
+	// btvn2_buoi5();
+	///btvn3_buoi5();
+	//btvn4_buoi5();
+	 btvn5_buoi5();
+
 }
