@@ -103,9 +103,47 @@ void btvn4_buoi5();
 
 void btvn5_buoi5();
 int kiem_tra_chuoi_con(char* A, char* B);
-
-
-
-
+// buoi 6
+void bai1_buoi6();
+int tich_ps(struct phan_so_s s1, struct phan_so_s s2);
+void bai2_buoi6();
+void bai3_buoi6();
+//buoi7
+/*
+struct để miêu tả mãng co giãn:
+input: địa chỉ vùng nhớ, input: sluong ptu
+*/
+typedef struct
+{
+	int* p;// địa chỉ vùng nhớ
+	int so_luong;// số lượng phần tử trong mảng
+} mang_co_gian;
+void array_init(mang_co_gian* addr_ptr, int so_luong);
+void array_set_val(mang_co_gian* addr_ptr, int index, int val);
+int array_get_val(mang_co_gian* addr_ptr, int index);
+void array_resize(mang_co_gian* addr_ptr, int size);
+void array_show(mang_co_gian* addr_ptr);
+int array_sum(mang_co_gian* add_ptr);
+void bai1_buoi7();
+//btvn buoi7
+typedef struct
+{
+	void* next_node;	// địa chỉ của node kế tiếp
+	int value;			// giá trị của node
+}node;
+// tạo struct để miểu tả đối tượng là linked_list
+typedef struct
+{
+	node* root_node; // địa chỉ của node đầu tiên.
+	int size;		 // số lượng node
+} linked_list;
+//  khởi tạo linked_list
+void linked_list_init(linked_list* ll);
+void linked_list_add_node(linked_list* ll, int val);
+int linked_list_get_val(linked_list* ll, int index);
+void linked_list_show_all_node(linked_list* ll);
+void linked_list_remove_node(linked_list* ll, int index);
+void linked_list_insert_node(linked_list* ll, int index, int val);
+void bai1_buoi7_btvn();
 
 

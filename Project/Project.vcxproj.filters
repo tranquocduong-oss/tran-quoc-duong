@@ -51,6 +51,15 @@
     <ClCompile Include="btvnBuoi5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="buoi6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buoi7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="btvnBuoi7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="library.h">
