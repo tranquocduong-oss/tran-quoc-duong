@@ -60,10 +60,20 @@ void linked_list_show_all_node(linked_list* ll) {
 
 
 void linked_list_remove_node(linked_list* ll, int index) {
+	// khi index không đúng hoặc danh sách rỗng thì nó sẽ không chạy 
+	if (index < 0 || index >= ll->size || ll->root_node == NULL) return;
+
+
 	node* temp = ll->root_node;
 	node* tempKeTruoc = temp;
 	if (index==0) {
-		ll->root_node = temp->next_node;
+		ll->root_node =(node*)(temp->next_node);
+		// giải phóng node đầu trong  linkedlist cũ
+		free(temp);
+		// giảm linked-list lại khi xóa
+		ll->size--;                             
+
+		return;
 
 	}
 
@@ -72,7 +82,8 @@ void linked_list_remove_node(linked_list* ll, int index) {
 		temp = (node*)(temp->next_node);
 	}
 	tempKeTruoc->next_node = temp->next_node;
-	ll->size;
+	// giảm linked-list lại khi xóa
+	ll->size--;
 	free(temp);
 
 }
@@ -80,23 +91,27 @@ void linked_list_remove_node(linked_list* ll, int index) {
 
 
 void linked_list_insert_node(linked_list* ll, int index, int val){
+	// khi index không đúng hoặc danh sách rỗng thì nó sẽ không chạy 
+	if (index < 0 || index > ll->size) return;
+
 	node* n = malloc(sizeof(node));
 	n->value = val;
 	n->next_node = NULL;
 
 	node* temp = ll->root_node;
 	node* tempKeTruoc = temp;
+
 	if (index == 0) {
 		ll->root_node = n;
 		n->next_node = temp;
 	}
 	else {
-		for (int i = 0; i < index;i++) {
-			tempKeTruoc = temp;
+		//temp sẽ dừng ở node ngay trước vị trí cần chèn
+		for (int i = 0; i < index-1;i++) {
 			temp = (node*)(temp->next_node);
 		}
-		tempKeTruoc->next_node = n;
-		n->next_node = temp;
+		n->next_node = temp->next_node;
+		temp->next_node = n;
 	}
 	ll->size++;
 }
