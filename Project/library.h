@@ -145,5 +145,26 @@ void linked_list_show_all_node(linked_list* ll);
 void linked_list_remove_node(linked_list* ll, int index);
 void linked_list_insert_node(linked_list* ll, int index, int val);
 void bai1_buoi7_btvn();
+// buoi8
+typedef enum {
+	NAM, NU
+}gt_t;
+
+typedef enum {
+	GIOI, KHA, TB, YEU
+}loai_t;
+typedef struct {
+	char* ten;
+	int tuoi;
+	gt_t gioi_tinh;  //0:nam; 1:nu
+	float diem_toan;
+	float diem_van;
+	loai_t loai; // 0:gioi,1:kha,2:trung binh,3:yeu
+} hoc_sinh_t;
+
+hoc_sinh_t tim_hoc_sinh_cao_nhat1(hoc_sinh_t* danh_sach, int so_luong);
+void bai1_buoi8();
+void bai2_buoi8();
+void bai4_buoi8();
 
 

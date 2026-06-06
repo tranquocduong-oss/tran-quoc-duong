@@ -2,5 +2,5 @@
 #include "library.h"
 
 void main() {
-	bai1_buoi7_btvn();
+	bai4_buoi8();
 }

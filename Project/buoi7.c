@@ -109,23 +109,7 @@
 //
 //	 //viết hàm để thêm một node vào cuối linked_list
 //	 void linked_list_add_node(linked_list* linkl, int val) {
-//	 
-//		 node* n = malloc(sizeof(node));
-//		 n->value_node = val;
-//		 n->next_node = NULL;
-//		 if (linkl->root_node == NULL) {
-//			 linkl->root_node = n;
-//		 }
-//		 else{ 
-//			 node* temp = linkl->root_node;
-//			 for (int i = 0;i < val;i++) {
-//				 temp = (node*)(temp->next_node);
-//			 }
-//			 temp->next_node=n;
-//		 
-//		 }
-//		 linkl->size++;
-//
+//		 *node n = malloc(sizeof(node));
 //	 }
 //// viet ham de doc gia tri cua 1 node trong linked-list
 //	 int linked_list_get_val(linked_list* linkl, int index){

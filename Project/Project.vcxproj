@@ -140,6 +140,7 @@
     <ClCompile Include="buoi5.2.c" />
     <ClCompile Include="buoi6.c" />
     <ClCompile Include="buoi7.c" />
+    <ClCompile Include="buoi8.c" />
     <ClCompile Include="lib.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
